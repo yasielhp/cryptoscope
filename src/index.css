@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-gray-100;
+}
+
+button {
+	@apply bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 my-2 rounded;
+}
+
+.quiz-container {
+	@apply relative my-14 mx-auto w-11/12 max-w-2xl bg-white shadow rounded-lg;
+}
+
+.join-screen {
+	@apply w-full h-80 flex flex-col justify-center items-center gap-5 text-center p-5;
+}
+
+.join-screen h2 {
+	@apply text-2xl font-bold text-purple-500;
+}
+.result-screen .title {
+	@apply text-2xl font-bold text-purple-500 mb-4;
+}
+
+.join-screen p {
+	@apply max-w-xs text-gray-500;
+}
+
+.quiz-screen .question .progress-bar {
+	@apply w-0 h-1;
+}
+
+.quiz-screen .question .progress-bar.active {
+	animation: progress 15s linear;
+}
+.quiz-screen .question .question-count {
+	@apply border-b py-6 px-5 text-center text-sm text-purple-500;
+}
+
+.quiz-screen .question .main {
+	@apply py-5 px-10;
+}
+
+.quiz-screen .question .main .title span {
+	@apply text-sm font-semibold text-purple-500;
+}
+
+.quiz-screen .question .main .title p {
+	@apply mt-1 text-gray-500;
+}
+
+.quiz-screen .question .main .options {
+	@apply mt-10 mx-0 mb-5 flex justify-between flex-wrap gap-5;
+}
+
+.quiz-screen .question .main .options .option {
+	@apply w-full text-sm text-gray-500 border border-gray-300 p-3 rounded-md cursor-pointer;
+}
+
+.quiz-screen .question .main .options .option.active {
+	@apply bg-purple-500 text-white;
+}
+.quiz-screen .question .control {
+	@apply py-3 px-5 flex justify-center items-center border-t;
+}
+
+.result-screen {
+	@apply w-full h-80 flex flex-col justify-center items-center gap-1;
+}
+
+@keyframes progress {
+	0% {
+		width: 0;
+		@apply bg-purple-100;
+	}
+	79% {
+		width: 79%;
+		@apply bg-purple-300;
+	}
+	80% {
+		width: 80%;
+		@apply bg-purple-400;
+	}
+	100% {
+		width: 100%;
+		@apply bg-purple-500;
+	}
+}

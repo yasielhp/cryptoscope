@@ -1,0 +1,129 @@
+[
+	{
+		"title": "¿Quiénes fueron los pioneros en establecer intereses a la hora de emitir préstamos a los ciudadanos?",
+		"options": [
+			" El Gobierno",
+			" Los Bancos y Entidades Financieras",
+			" Ninguna de las anteriores es correcta"
+		],
+		"correctOptionIndex": "1"
+	},
+	{
+		"title": "¿Qué es el sistema P2P?",
+		"options": [
+			"Un sistema de pagos sin intermediarios (Peer-to-peer) utilizado por las criptomonedas",
+			"Un sistema de seguridad de blockchain (Protect-2-Private)",
+			"Es un mecanismo que ayuda a los mineros de criptomonedas a minar con mayor potencia (Power-2-Power)",
+			"Un Reality Show"
+		],
+		"correctOptionIndex": "0"
+	},
+	{
+		"title": "¿En que año se conoció POR PRIMERA VEZ el término “Bitcoin”?",
+		"options": ["2008", "2007", "2009"],
+		"correctOptionIndex": "0"
+	},
+	{
+		"title": "¿Qué es Blockchain?",
+		"options": [
+			"Un sistema de pagos automatizado entre mineros y compradores de Bitcoin",
+			"El Blockchain (o cadena de bloques) es una base de datos oculta que funciona como un libro para el registro de operaciones de compra-venta o cualquier otra transacción. Es la base tecnológica del funcionamiento del sistema fiduciario actual.",
+			"Es una base de datos distribuida que funciona como un libro público para el registro de operaciones de compra-venta o cualquier otra transacción. Es la base tecnológica del funcionamiento del bitcoin"
+		],
+		"correctOptionIndex": "2"
+	},
+	{
+		"title": "¿Dónde es más seguro guardar tus criptomonedas a largo plazo?",
+		"options": ["Hot Wallets", "Cold Wallets"],
+		"correctOptionIndex": "1"
+	},
+	{
+		"title": "¿Por qué es diferente el trading con criptomonedas?",
+		"options": [
+			"Porque necesitas una cuenta grande",
+			"Porque no te puedes apalancar",
+			"Porque no cierra los fines de semana y tiene gráficos más limpios"
+		],
+		"correctOptionIndex": "2"
+	},
+	{
+		"title": "¿Qué es el análisis técnico?",
+		"options": [
+			"Una estrategia de trading",
+			"Una metodología de análisis que se basa en las gráficas de cotización del precio"
+		],
+		"correctOptionIndex": "1"
+	},
+	{
+		"title": "Los usos básicos de los osciladores son…",
+		"options": [
+			"Medir la tendencia",
+			"Divergencias, cambios de tendencia y zonas de sobrecompra/sobreventa",
+			"Medir las probabilidades de que el precio rebote"
+		],
+		"correctOptionIndex": "1"
+	},
+	{
+		"title": "¿Qué significa operar con confluencias?",
+		"options": [
+			" Que buscamos que varios elementos técnicos nos den una señal de entrada al mismo tiempo",
+			"Que el precio rebota en el 78% del Retroceso de Fibo antes de confluir e ir al 100%",
+			" Que usamos análisis fundamental en confluencia con el número en circulación de esa criptomoneda"
+		],
+		"correctOptionIndex": "0"
+	},
+	{
+		"title": "¿Qué es la gestión monetaria?",
+		"options": [
+			"El punto donde ponemos el Stop Loss, en función al capital de nuestra cuenta",
+			"El conjunto de técnicas relacionadas con la administración de nuestro capital",
+			"La cantidad de apalancamiento que usamos en cada operación"
+		],
+		"correctOptionIndex": "1"
+	},
+	{
+		"title": "¿Qué es lo mejor para un sistema de trading?",
+		"options": [
+			"Acertar mucho, tener una gran tasa de acierto. Sobre un 90% y un 95% está bien",
+			"Sacar take profits de mucho recorrido",
+			"Mantener un equilibrio fiable entre acierto y beneficio/riesgo que nos proporcione buena rentabilidad"
+		],
+		"correctOptionIndex": "2"
+	},
+	{
+		"title": "¿Por qué nos ayuda el backtest?",
+		"options": [
+			" Porque si estudiamos mucho ganaremos siempre, el mercado se puede aprender y predecir con mucho esfuerzo",
+			"Porque nos permite hacer un estudio estadístico y profesional para saber si nuestra manera de operar es rentable y poder corregirla, o simplemente entrenar",
+			"Da lo mismo, es un complemento"
+		],
+		"correctOptionIndex": "1"
+	},
+	{
+		"title": "El Stop Loss…",
+		"options": [
+			"Un orden para no cortar pérdidas que debemos establecer siempre en un punto razonable. Esta orden nos asegura un beneficio en cada trade",
+			"Un orden para cortar pérdidas antes de que aumenten, que debemos establecer siempre en un punto razonable",
+			"Lo que me pasa cada vez que opero"
+		],
+		"correctOptionIndex": "1"
+	},
+	{
+		"title": "Un sistema de trading…",
+		"options": [
+			"Debe ser 100% idea nuestra",
+			" Podemos inspirarnos en patrones y estrategias de otros traders y adaptarlas a nuestro gusto",
+			" Sirve de poco.. lo mejor es operar a ojo e intentar adivinar el movimiento del mercado con predicciones"
+		],
+		"correctOptionIndex": "1"
+	},
+	{
+		"title": "Los patrones…",
+		"options": [
+			"Son algo imprescindible para operar. Cualquier trader que no use patrones está condenado al fracaso",
+			"Son algo que debemos buscar en el gráfico de manera obsesiva. Cuantos más encuentres, más ganarás",
+			" Son estructuras de mercado que nos aportan cierta ventaja estadística cuando los operamos, ya que se repiten muchas veses"
+		],
+		"correctOptionIndex": "2"
+	}
+]
