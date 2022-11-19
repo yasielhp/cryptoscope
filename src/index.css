@@ -15,18 +15,26 @@ button {
 }
 
 .join-screen {
-	@apply w-full h-80 flex flex-col justify-center items-center gap-5 text-center p-5;
+	@apply w-full h-auto flex flex-col justify-center items-center text-center	pt-8;
 }
 
 .join-screen h2 {
-	@apply text-2xl font-bold text-purple-500;
+	@apply text-2xl font-bold text-purple-500 py-4;
 }
 .result-screen .title {
 	@apply text-2xl font-bold text-purple-500 mb-4;
 }
 
 .join-screen p {
-	@apply max-w-xs text-gray-500;
+	@apply max-w-xs text-gray-500 py-4;
+}
+
+.join-screen .bottom {
+	@apply w-full flex justify-center items-center  border-t mt-4;
+}
+
+.join-screen .bottom p {
+	@apply max-w-xs text-xs	text-gray-400;
 }
 
 .quiz-screen .question .progress-bar {

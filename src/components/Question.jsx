@@ -57,7 +57,9 @@ export const Question = ({
 				</div>
 			</div>
 			<div className="control">
-				<button onClick={gotoNextQuestion}>Siguiente</button>
+				<button onClick={gotoNextQuestion}>
+					{currentQuestion == totalQuestion ? 'Terminar' : 'Siguiente'}
+				</button>
 			</div>
 		</div>
 	)
